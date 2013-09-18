@@ -1,14 +1,17 @@
 {
-  "name": "application-name",
+  "name": "Mod",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "main": "app.js"
   },
   "dependencies": {
     "express": "3.2.3",
     "jade": "*",
     "mongodb" : ">=0.9.6-7",
     "mongoose" : ">=3.6"
+  },
+  "engines" : {
+    "node": "0.10.x"
   }
 }
